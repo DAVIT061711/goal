@@ -1,0 +1,41 @@
+<!-- 3)შექმენი HTML ფორმა, სადაც იქნება სახელი, გვარი, ელფოსტა, პაროლი,
+სქესის არჩევა (radio buttons) და გაგზავნის ღილაკი. გამოიყენე form, label და input თეგები. ყველა input-ს უნდა ჰქონდეს შესაბამისი label.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <form>
+          <label for="textinput"> first name:</label>  
+          <input type="text" id="textinput" name="first name"><br><br>
+
+          <label for="textinput"> last name:</label>  
+          <input type="text" id="textinput" name="last name"><br><br>
+
+          <label for="emailinput">Email:</label>
+          <input type="email" id="emailinput" name="email"><br><br>
+
+          <label for="paswordinput">pasword:</label>
+          <input for="pasword" id="pasword input" name="pasword"><br><br>
+
+          <label for="">gender</label><br>
+
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">male</label><br>
+
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">female</label><br>
+
+          <select name="country">
+                <option value="ge">georgia</option>       
+                <option value="in" selected>india</option>
+                <option value="ja">japan</option>
+
+                <button>submit</button>
+          </select>
+          </form>
+</body>
+</html>

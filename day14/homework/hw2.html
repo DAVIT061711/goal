@@ -1,0 +1,42 @@
+<!-- 2) შექმენით სარეგისტაციო ფორმა ბანკისთვის, ფორმაში იყოს: სახელი, გვარი, მეილი, თანხის
+რაოდენობა,სქესის არჩევა (radio buttons) და drop down menu სადაც მოცემული იქნება რომელი ფულის ერთეულის გამოტანა სურს
+(ლარი, დოლარი, ევრო და ა.შ.) საწყის არჩევანად იყოს select currency და ის 
+უნდა იყოს გაუქმებული, აუცილებლად გამოიყენეთ სწორი id, label, name, value, type -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+          <label for="textinput">  name:</label>  
+          <input type="text" id="textinput" name="name"><br><br>
+
+          <label for="textinput"> last name:</label>  
+          <input type="text" id="textinput" name="last name"><br><br>
+
+          <label for="emailinput">Email:</label>
+          <input type="email" id="emailinput" name="email"><br><br>
+
+          <label for="amount of moneyinput">amount of money:</label>
+          <input for="amount of money" id="amount of money input" name="amount of money"><br><br>
+
+          <label for="">gender</label><br>
+
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">male</label><br>
+
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">female</label><br>
+
+          <select name="drop down menu">
+                <option value="lari selected">GEL</option>       
+                <option value="$">DOLLAR</option>
+                <option value="€">EURO</option>
+                <option value="₽">RUBLE</option>
+
+          </select>
+</body>
+</html>
