@@ -1,0 +1,12 @@
+#2)შექმენით კოდი რომელის დაპრინტავს "adult" როცა ასაკი იქნება 18 წელზე მეტი, თუ 13 წელსა
+#და 18 წელს შორისაა დაპრინტოს "teen", ხოლო ყველა სხვა შემთხვევაში დაპრინტოს "child"
+age = int(input("enter your age"))
+if age > 18:
+    print("adult")
+elif age >=13:
+    print("teen")
+else:
+    print("child")
+
+
+    
