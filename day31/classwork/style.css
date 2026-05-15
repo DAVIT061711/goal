@@ -1,0 +1,14 @@
+/* #3*/
+/* external css */
+
+button {
+background-color: blue;
+            font-size: 20px;           
+            text-align: center;
+}
+/* #4 */
+.dotted-line{
+    text-decoration: line-through green;
+    text-decoration-thickness: 2px;
+    font-size: 2opx;
+}

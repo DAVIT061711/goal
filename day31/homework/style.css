@@ -1,0 +1,28 @@
+/* 1 */
+.satauri {
+    text-align: right;
+    text-shadow: 3px 3px 5px blue;
+    text-decoration: underline green;
+}
+
+/* 2 */
+.teksti {
+    text-align: justify;
+    text-decoration: line-through;
+    width: 100%;
+}
+/* 3 */
+.mma {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.mma h1 {
+    color: red;
+}
+
+.mma ul {
+    list-style: none;
+}
