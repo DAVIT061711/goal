@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+/* 2 */
+p{
+    font-weight: 600;
+}
+
+/* 3 */
+p{
+    font-family: "Doto", sans-serif;
+}
+/* 6 */
+.red-link:hover{
+    color:blue ;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.5s;
+}
