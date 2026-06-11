@@ -1,0 +1,17 @@
+/* 1 */
+h1{
+    font-size: 40px;
+    color:black;
+    font-weight: 300;
+}
+th,td,table{
+    border:1px solid green;
+    padding: 10px 20px;
+}
+table{
+    border-collapse: collapse;
+}
+tr:nth-child(add){
+    background-color: green;
+    color:black;
+}

@@ -1,0 +1,27 @@
+/* 2 */
+p{
+color:blue;
+background-color: brown;
+font-size: 30px;
+}
+#b2{
+    color:gold
+}
+.text{
+    color:green
+}
+/* 3 */
+.g2{
+    height: 400px;
+    width: 400px; 
+    
+}
+.g2 p{
+     height: 25%;
+     width: 25%;
+     background-color: green;
+}
+/* 4 */
+p{
+    color:rgb(red, green, blue)
+}
