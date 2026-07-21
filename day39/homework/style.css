@@ -1,0 +1,27 @@
+body{
+    margin:0;
+    height:auto;
+    display:flex;
+    align-items: center;
+    background-color: blue;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    max-width: 600px;
+    margin: auto;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}

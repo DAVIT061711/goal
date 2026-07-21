@@ -1,0 +1,38 @@
+.leaderboard {
+  display: flex;
+  align-items: baseline; 
+  justify-content: space-between;
+  gap: 10px;
+  background-color: #f0f0f0;
+  flex-direction: column;
+  padding: 50px;
+  height: 300px;
+}
+
+.podium {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  color: white;
+  font-weight: bold;
+}
+
+.first {
+  height: 150px;
+  font-size: 60px;
+  background-color: #ffd700; 
+}
+
+.second {
+  height: 110px;
+  font-size: 45px;
+  background-color: #c0c0c0; 
+}
+
+.third {
+  height: 80px;
+  font-size: 35px;
+  background-color: #cd7f32; 
+}
+
