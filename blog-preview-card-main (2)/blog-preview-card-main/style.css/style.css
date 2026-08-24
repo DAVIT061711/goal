@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Figtree", sans-serif;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainDiv {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 7px 10px 0px 2px rgba(0,0,0,1);
+    -webkit-box-shadow: 7px 10px 0px 2px rgba(0,0,0,1);
+    -moz-box-shadow: 7px 10px 0px 2px rgba(0,0,0,1);
+    width: 336px;
+}
+
+#bottomDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+img {
+    border-radius: 10px;
+}
+
+#dateDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 0.9rem;
+    width: fit-content;
+}
+
+#learningP {
+    background-color: hsl(47, 88%, 63%);
+    margin-top: 15px;
+    color: hsl(0, 0%, 7%);
+    font-weight: bold;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px 10px;
+}
+
+#dateP {
+    font-weight: 500;
+}
+
+#descDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#descP {
+    color: hsl(0, 0%, 42%);
+    line-height: 150%;
+    font-weight: 500;
+}
+
+#creatorDiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#creatorImg {
+    width: 30px;
+}
+
+#creatorP {
+    font-weight: bold;
+    font-size: 0.9rem;
+}

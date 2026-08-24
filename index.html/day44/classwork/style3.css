@@ -1,0 +1,13 @@
+/* 4 */
+body {
+  height: 300vh;
+}
+
+.fixed-box {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: fixed;
+  top: 0;
+  left: 0;
+}

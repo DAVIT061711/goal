@@ -1,0 +1,31 @@
+/* 2 */
+.parent-2 {
+  display: flex;
+  width: 500px;
+  background-color: #f0f0f0;
+}
+
+.box {
+  width: 250px;
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.box1 {
+  background-color: #e74c3c;
+  flex-shrink: 1; 
+}
+
+.box2 {
+  background-color: #2ecc71;
+  flex-shrink: 0; 
+}
+
+.box3 {
+  background-color: #3498db;
+  flex-shrink: 2; 
+}

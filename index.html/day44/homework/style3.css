@@ -1,0 +1,16 @@
+body {
+  height: 300vh;
+  margin: 0;
+}
+
+.fixed-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  z-index: 1000;
+}
