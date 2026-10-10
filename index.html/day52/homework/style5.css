@@ -1,0 +1,10 @@
+/* 5 */
+.grid-parent5 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 300px; /* თვალსაჩინოებისთვის */
+}
+
+.bottom-item {
+  align-self: end;
+}

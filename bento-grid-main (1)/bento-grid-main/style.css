@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.bento-container {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  grid-template-rows: repeat(3, auto);
+  gap: 1.5rem;
+  max-width: 1100px;
+}
+
+.card {
+  border-radius: 20px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ 
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 600;
+ 
+}
+
+/* Card 1 */
+.card-1 {
+  background-color: #f9eee1;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.card-1 h2 span {
+  color: #7651dc;
+  font-style: italic;
+}
+
+.btn-create {
+  background-color: #ffcb6b;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 30px;
+  font-weight: bold;
+  color: #7651dc;
+  cursor: pointer;
+  margin-top: 1rem;
+  width: fit-content;
+}
+
+.card-2 {
+  background-color: #7651dc;
+  color: white;
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-2 h1 {
+  font-size: 2.8rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.card-2 h1 span {
+  color: #ffcb6b;
+}
+
+.card-2 h1 em {
+  font-style: italic;
+}
+
+.stars {
+  color: #ffcb6b;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.card-2 p {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  opacity: 0.9;
+}
+
+.card-3 {
+  background-color: #dacffc;
+  grid-column: 4 / 5;
+  grid-row: 1 / 3;
+}
+
+.chart-preview {
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  margin: 1.5rem 0;
+}
+
+.chart-title {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  height: 80px;
+}
+
+.bars span {
+  flex: 1;
+  background-color: #dacffc;
+  border-radius: 4px;
+}
+
+.bars span.active {
+  background-color: #7651dc;
+}
+
+.subtext {
+  font-size: 0.85rem;
+  color: #444;
+}
+
+/* Card 4 */
+.card-4 {
+  background-color: white;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.account-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #f5f5f5;
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+  margin-bottom: 1rem;
+}
+
+.card-5 {
+  background-color: #ffcb6b;
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+.calendar-widget {
+  background: white;
+  padding: 0.8rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.cal-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.cal-checks {
+  display: flex;
+  gap: 5px;
+}
+
+.cal-checks span {
+  background: #7651dc;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+}
+
+.card-6 {
+  background-color: #ffcb6b;
+  grid-column: 1 / 2;
+  grid-row: 2 / 4;
+}
+
+.chat-preview {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.chat-bubble, .chat-response {
+  background: white;
+  padding: 0.8rem;
+  border-radius: 10px;
+  font-size: 0.75rem;
+}
+
+.chat-response {
+  background: #f9eee1;
+}
+
+.card-7 {
+  background-color: white;
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+
+.card-7 h2 {
+  font-size: 2.5rem;
+}
+
+.avatars {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  background: #eee;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: -8px;
+  border: 2px solid white;
+}
+
+.card-8 {
+  background-color: #7651dc;
+  color: white;
+  grid-column: 3 / 5;
+  grid-row: 3 / 4;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.growth-box {
+  background: white;
+  color: black;
+  padding: 1rem;
+  border-radius: 12px;
+  min-width: 140px;
+}
+
+

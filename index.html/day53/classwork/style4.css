@@ -1,0 +1,12 @@
+/* 4 */
+.origin-box {
+  width: 100px;
+  height: 100px;
+  background-color: #9b59b6;
+  transform-origin: bottom left;
+  transition: transform 0.3s ease;
+}
+
+.origin-box:hover {
+  transform: scale(1.3) rotate(20deg);
+}

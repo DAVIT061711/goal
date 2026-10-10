@@ -1,0 +1,21 @@
+/* 3 */
+.rotate-box {
+  width: 100px;
+  height: 100px;
+  background-color: #e74c3c;
+  margin: 20px;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.rotate1:hover {
+  transform: rotate(45deg);
+}
+
+.rotate2:hover {
+  transform: rotate(90deg);
+}
+
+.rotate3:hover {
+  transform: rotate(-45deg);
+}

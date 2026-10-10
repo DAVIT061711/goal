@@ -1,0 +1,7 @@
+/* 3 */
+.grid-parent3{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: end;
+  height: 300px; /* თვალსაჩინოებისთვის */
+}
