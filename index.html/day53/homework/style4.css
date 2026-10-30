@@ -1,0 +1,31 @@
+/* 4 */
+.parent{
+    display: flex;
+    gap: 40px;
+}
+.child{
+    width: 100px;
+    height: 60px;
+    background-color:black;
+    color: white;
+    justify-content: center;
+    transition: transform 0.3s;
+}
+.child1{
+    transform-origin: top left;
+}
+.child1:hover{
+    transform: rotate(30deg);
+}
+.child2{
+    transform-origin:center
+}
+.child2:hover{
+    transform:rotate(45deg)
+}
+.child3{
+    transform-origin:top right;
+}
+.child3:hover{
+    transform: rotate(60deg);
+}

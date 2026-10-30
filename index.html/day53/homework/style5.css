@@ -1,0 +1,12 @@
+.parent{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.parent:hover{
+    transform: rotate(15deg) scale(1.3) translate(30px,-20px);
+}

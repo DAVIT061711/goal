@@ -3,5 +3,5 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: end;
-  height: 300px; /* თვალსაჩინოებისთვის */
+  height: 300px; 
 }

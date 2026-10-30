@@ -1,0 +1,40 @@
+.parent{
+    width: 100px;
+    height: 200px;
+    transition: transform 0.3s;
+    gap: 25px;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+
+}
+.parent img{
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+
+
+}
+.parent img:hover{
+    transform: scale(1.15) rotate(5deg);
+    
+}
+.img1{
+    transform-origin:top left ;
+}
+.img2{
+    transform-origin:top right ;
+}
+.img3{
+    transform-origin: center;
+}
+.img4{
+    transform-origin:bottom left ;
+}
+.img5{
+    transform-origin: bottom right;
+}
+.img6{
+    transform-origin:  50%,100%;
+}

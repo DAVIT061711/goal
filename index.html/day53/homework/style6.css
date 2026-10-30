@@ -1,0 +1,10 @@
+.parent{
+    background-color: black;
+    transition: transform 0.3s;
+
+}
+
+.parent:hover{
+    background-color: blue;
+    transform: scale(1.1) translate(0,-5) ;
+}
